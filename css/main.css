@@ -1,3 +1,64 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+
+}
+
+
+header, section, footer {
+	padding: 1em;
+}
+
+header {
+	background-color: #FA5A0F;
+
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+#generalInfo {
+
+}
+
+#menu {
+	background-color: rgba(207, 205, 140. 0.5);
+
+
+}
+
+#aboutUs {
+
+}
+
+header a:link,
+header a:visited {
+	color: #0000AA;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+header a:hover,
+header a:focus {
+	background-color: #0000EE;
+}
+
+footer {
+	background-color: #FC892F;
+	border-top: 5px;
+	border-top-color: #EC791F;	
+}
