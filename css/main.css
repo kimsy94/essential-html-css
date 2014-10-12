@@ -12,16 +12,25 @@ body {
     background-attachment: fixed;
 }
 
-header, section, footer {
-	padding: 1em;
+main {
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-image: url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+
 }
 
 header {
 	background-color: #FA5A0F;
 
+	border-style: solid;
 	border-bottom: 5px;
 	border-bottom-color: #EA4A00;
 	color: #FFFFFF;
+
+	padding: 1em;
 }
 
 h1, h2, h3, h4 {
@@ -34,11 +43,21 @@ h1 {
 	margin: 0px;
 }
 
-h2, h3 {
+h2, h4 {
 	color: #505050;
 }
 
+h2 {
+	font-size: 150%;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 125%;
+}
+
 #generalInfo {
+	padding: 1em;
 
 }
 
