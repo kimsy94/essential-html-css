@@ -8,9 +8,9 @@ body {
 
     background-image: url(../img/background.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 
 header, section, footer {
 	padding: 1em;
@@ -24,8 +24,18 @@ header {
 	color: #FFFFFF;
 }
 
+h1, h2, h3, h4 {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
 h1 {
 	font-size: 300%;
+	margin: 0px;
+}
+
+h2, h3 {
+	color: #505050;
 }
 
 #generalInfo {
@@ -34,16 +44,13 @@ h1 {
 
 #menu {
 	background-color: rgba(207, 205, 140. 0.5);
-
-
 }
 
 #aboutUs {
 
 }
 
-header a:link,
-header a:visited {
+a:link, a:visited {
 	color: #0000AA;
 	text-decoration: none;
 	padding-left: 1em;
@@ -52,9 +59,9 @@ header a:visited {
 	padding-bottom: 0.5em;
 }
 
-header a:hover,
-header a:focus {
-	background-color: #0000EE;
+a:hover,
+a:focus {
+	color: #0000EE;
 }
 
 footer {
