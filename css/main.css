@@ -24,10 +24,7 @@ main {
 
 header {
 	background-color: #FA5A0F;
-
-	border-style: solid;
-	border-bottom: 5px;
-	border-bottom-color: #EA4A00;
+	border-bottom: solid 5px #EA4A00;
 	color: #FFFFFF;
 
 	padding: 1em;
@@ -62,11 +59,24 @@ h3 {
 }
 
 #menu {
-	background-color: rgba(207, 205, 140. 0.5);
+	background: rgba(207, 205, 140, 0.5); 
+	padding: 1em;
+}
+
+
+dt {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 #aboutUs {
-
+	padding: 1em;
 }
 
 a:link, a:visited {
@@ -84,7 +94,10 @@ a:focus {
 }
 
 footer {
+	padding: 1em;
 	background-color: #FC892F;
 	border-top: 5px;
-	border-top-color: #EC791F;	
+	border-top-color: #EC791F;
+	font-size: 80%;	
+	text-align: right;
 }
