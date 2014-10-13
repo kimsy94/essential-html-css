@@ -102,8 +102,7 @@ a:hover, a:focus {
 footer {
 	padding: 1em;
 	background-color: #FC892F;
-	border-top: 5px;
-	border-top-color: #EC791F;
+	border-top: solid 5px #EC791F;
 	font-size: 80%;	
 	text-align: right;
 }
